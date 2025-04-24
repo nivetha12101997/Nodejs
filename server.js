@@ -35,5 +35,5 @@ app.use('/api/v1/schedule',scheduleRoutes);
 app.use('/api/v1/gallery',galleryRoutes);
 
 
-const port=process.env.MYSQL_PORT || 5000;
+const port= 5000;
 app.listen(port,()=>console.log("Server is up and running...!"))
