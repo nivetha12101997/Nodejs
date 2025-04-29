@@ -1,0 +1,25 @@
+-- insert into Faculty (name,designation, experience,email,about, education,achievements) values("Balaji","jhkjkjc","3.45","dsd2@gmail.com","dss","BE","dddddddddddd");
+-- Alter table faculty add column image_filename varchar(255);
+-- Alter table faculty add column image_path  varchar(512);
+-- Alter table faculty add column image_mimetype varchar(100);
+-- Alter table faculty add column image_size  int;
+--  Select * from batches;
+Select * from schedules;
+-- CREATE TABLE faculty (
+-- name varchar(100),designation varchar(100),experience varchar(300),email varchar(100),about varchar(500),education varchar(100),achievements varchar(500),workExperience varchar(500),image_filename varchar(512),image_path varchar(225),image_size int,image_mimetype varchar(100),id int AUTO_INCREMENT PRIMARY)
+--     
+-- )
+-- create table batches(batchName varchar(100),subjects varchar(100),languages varchar(50),startDate date,duration datetime,fees int);
+
+-- create table fees_structure(program varchar(500),tuitionFee varchar(100),registration varchar(100),inclusion varchar(100),total varchar(100));
+
+-- create table gallery(image_filename varchar(300),image_path varchar(512),image_size int,image_mimetype varchar(100));
+
+-- create table schedules(pdf_filename varchar(300),pdf_path varchar(512),pdf_size int,pdf_mimetype varchar(100));
+-- use arun_app;
+--  alter table batches modify startDate varchar(100);
+-- alter table batches add column id int auto_increment primary key;
+-- alter table fees_structure add column id int auto_increment primary key;
+-- alter table gallery add column id int auto_increment primary key;
+ -- alter table schedules add column id int auto_increment primary key;
+ --  alter table schedules add column course_subject varchar(100);
